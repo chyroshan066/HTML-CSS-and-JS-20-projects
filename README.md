@@ -10,9 +10,9 @@ When hovering over the page, small portion of the background image which was ini
 
 ### 2. Jumping Letters
 
-#### Reference video
+#### Reference image
 
-<video src="Project2.mp4"></video>
+![Project2](./assets/Project2.png)
 
 On clicking on the letters, it animate.
 
