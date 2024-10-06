@@ -12,7 +12,7 @@ When hovering over the page, small portion of the background image which was ini
 
 #### Reference video
 
-![Project2](./assets/Project2.mp4)
+<video src="Project2.mp4"></video>
 
 On clicking on the letters, it animate.
 
