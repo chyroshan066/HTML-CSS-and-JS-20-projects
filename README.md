@@ -16,13 +16,21 @@ When hovering over the page, small portion of the background image which was ini
 
 On clicking on the letters, it animate.
 
-### 2. Bell Notification
+### 3. Bell Notification
 
 #### Reference image
 
 ![Project3](./assets/Project3.png)
 
 On clicking Notify Me button, the notification count increases by 1 and the bell icon gets animated.
+
+### 4. Scrollbar Indicator
+
+#### Reference image
+
+![Project4](./assets/Project4.png)
+
+On scrolling the window, the loading bar at the top of the webpage shows the total percentage height scrolled.
 
 ## Resources used
 

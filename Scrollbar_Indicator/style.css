@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #009a8b, #5500cc, #66d0c7);
+    font-family: sans-serif;
+}
+
+.indicator{
+    background: linear-gradient(to left, #e1a732, #f574bb, #262b2a);
+    height: 20px;
+    border-radius: 4px;
+    width: 20%;
+    position: fixed;
+    top: 0px;
+}
+
+.text{
+    color: #000;
+    line-height: 10rem;
+    text-align: center;
+}
+
+.text span{
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0.5rem;
+    display: inline-block;
+    transition: transform 0.2s;
+    width: 150px;
+}
+
+.text span:hover{
+    transform: scale(1.05);
+}
