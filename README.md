@@ -32,6 +32,14 @@ On clicking Notify Me button, the notification count increases by 1 and the bell
 
 On scrolling the window, the loading bar at the top of the webpage shows the total percentage height scrolled.
 
+### 5. Captcha Generator
+
+#### Reference image
+
+![Project5](./assets/Project5.png)
+
+Generates random captcha on each page load or clicking refresh. Also handles output on the basis of value entered.
+
 ## Resources used
 
 ### 1. Pixabay

@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;  /* on applying padding to any element/tag, it doesn't allow to increase the size of the window */
     margin: 0;
     padding: 0;
     background-color: azure;

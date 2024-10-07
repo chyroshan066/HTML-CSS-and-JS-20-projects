@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #d4fc79, #96e6a1);
+    animation: colorChange 10s infinite alternate;
+}
+
+@keyframes colorChange {
+    0%{
+        background: #e0c3fc;
+    }
+    100%{
+        background: #c3e8fc;
+    }
+}
+
+div{
+    margin: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+
+.container h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #4a90e2;
+    text-shadow: 2px 2px 4px #ccc;
+    margin-bottom: 20px;
+}
+
+.container .generator-box .generator{
+    font-size: 2rem;
+    padding: 1rem;
+    background: #3a3a3a;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    box-shadow: 2px 2px 4px #444;
+}
+
+.container .your-chance .client-text{
+    text-align: center;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #96e6a1;
+}
+
+.container button{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    background: #5e5e5e;
+    color: whitesmoke;
+}
+
+.container button:hover{
+    transform: scale(1.1);
+}
+
+.container .submit:hover{
+    background: #828282;
+}
+
+.container .refresh:hover{
+    background: #e0e0e0;
+}
