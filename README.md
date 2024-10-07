@@ -16,8 +16,20 @@ When hovering over the page, small portion of the background image which was ini
 
 On clicking on the letters, it animate.
 
+### 2. Bell Notification
+
+#### Reference image
+
+![Project3](./assets/Project3.png)
+
+On clicking Notify Me button, the notification count increases by 1 and the bell icon gets animated.
+
 ## Resources used
 
 ### 1. Pixabay
 
 For getting HD images
+
+### 2. font-awesome
+
+For getting free icons
