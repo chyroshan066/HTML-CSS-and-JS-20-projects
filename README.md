@@ -40,6 +40,14 @@ On scrolling the window, the loading bar at the top of the webpage shows the tot
 
 Generates random captcha on each page load or clicking refresh. Also handles output on the basis of value entered.
 
+### 6. JavaScript Tabs Preview
+
+#### Reference image
+
+![Project6](./assets/Project6.png)
+
+On clicking different tabs, the background color as well as the main big icon changes. Also the active tab status changes which is indicated by black background color and white font color.
+
 ## Resources used
 
 ### 1. Pixabay
