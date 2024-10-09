@@ -2,30 +2,108 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     scroll-behavior: smooth;
 }
 
-.container .wrapper{
+body{
     background-color: #00d8ff;
     display: grid;
     place-items: center;
+    height: 100vh;
+    transition: all 1s;
+}
+
+.container{
+    width: 750px;
+    height: 400px;
+    position: relative;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.neon-glow{
+    animation: neon-glow-animation 1s infinite alternate;
+}
+
+@keyframes neon-glow-animation {
+    0%{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    }
+    100%{
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    }
+}
+
+.container .wrapper{
+    width: 750px;
+    height: 400px;
+    box-shadow: 0 2px 4px black ;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.container .wrapper nav{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gainsboro;
+    z-index: 2;
+    background-color: white;
+    color: rgb(150, 240, 177);
+}
+
+.container .wrapper nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.container .wrapper .link{
+    transition: all 0.3s;
+}
+
+.container .wrapper .link:hover{
+    color: #333;
+}
+
+.container .wrapper .link.tabOne{
+    background-color: #4e5052;
+    color: white;
+}
+
+.container .wrapper .link.tabTwo{
+    background-color: #4e5052;
+    color: white;
+}
+
+.container .wrapper .link.tabThree{
+    background-color: #4e5052;
+    color: white;
 }
 
 .container .info{
     display: flex;
-    align-items: center;
+    width: 750px;
+    height: 100%;
+    padding-top: 2rem;
+}
+
+.container .info .item{
+    color: black;
+    display: flex;
+    background: white;
+    width: 850px;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .info .item.active i{
+    font-size: 9rem;
 }
