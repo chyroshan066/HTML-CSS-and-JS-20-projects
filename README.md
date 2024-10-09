@@ -62,7 +62,15 @@ New unique password generates each time on clicking "Generate Password" button a
 
 ![Project8](./assets/Project8.png)
 
-On moving the mouse cursor, it creates the illumination effect and the spotlight appears only in that position where mouse is hovered
+On moving the mouse cursor, it creates the illumination effect and the spotlight appears only in that position where mouse is hovered.
+
+### 9. Scratching Effect
+
+#### Reference image
+
+![Project9](./assets/Project9.png)
+
+On moving the mouse cursor, it creates the scratching effect where the current background is erased and another background appears.
 
 ## Resources used
 
