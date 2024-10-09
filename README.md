@@ -72,6 +72,14 @@ On moving the mouse cursor, it creates the illumination effect and the spotlight
 
 On moving the mouse cursor, it creates the scratching effect where the current background is erased and another background appears.
 
+### 10. Disco Light Effect
+
+#### Reference image
+
+![Project10](./assets/Project10.png)
+
+Changes the light color and background color on each one second interval where the light color matches the background color( which looks like a disco-light).
+
 ## Resources used
 
 ### 1. Pixabay
