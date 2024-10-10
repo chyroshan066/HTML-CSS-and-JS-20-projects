@@ -80,6 +80,15 @@ On moving the mouse cursor, it creates the scratching effect where the current b
 
 Changes the light color and background color on each one second interval where the light color matches the background color( which looks like a disco-light).
 
+### 11. Searchbox
+
+#### Reference image
+
+![Project11a](./assets/Project11a.png)
+![Project11b](./assets/Project11b.png)
+
+Toggles the input box on clicking the icons.
+
 ## Resources used
 
 ### 1. Pixabay
