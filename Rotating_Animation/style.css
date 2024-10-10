@@ -1,0 +1,22 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2e19ff;
+}
+
+.squares{
+    border: 100px solid #810044;
+    position: fixed;
+    transform: translate(-50%,-50%) rotate(0deg);
+    animation: 20s ease-in-out infinite;
+}

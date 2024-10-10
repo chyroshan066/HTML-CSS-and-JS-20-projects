@@ -97,6 +97,14 @@ Toggles the input box on clicking the icons.
 
 On hovering mouse on the square boxes the box-color changes and resembles like github contribution graph.
 
+### 13. Rotating Animation
+
+#### Reference image
+
+![Project13](./assets/Project13.png)
+
+The square box rotates continuously changing its shape and size.
+
 ## Resources used
 
 ### 1. Pixabay
