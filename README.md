@@ -105,6 +105,14 @@ On hovering mouse on the square boxes the box-color changes and resembles like g
 
 The square box rotates continuously changing its shape and size.
 
+### 14. Currency Stack
+
+#### Reference image
+
+![Project14](./assets/Project14.png)
+
+On moving mouse cursor on the window, the currency stack increases or decreases depending on direction.
+
 ## Resources used
 
 ### 1. Pixabay
