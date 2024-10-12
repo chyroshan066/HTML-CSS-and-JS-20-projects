@@ -137,6 +137,15 @@ Simple Digital Clock which displays time in 24hr format.
 
 Displays the total number of vowels entered in the textarea.
 
+### 16. Popover
+
+#### Reference image
+
+![Project18a](./assets/Project18a.png)
+![Project18b](./assets/Project18b.png)
+
+On clicking "Click Me" button, the card popover and on clicking "Close", it is removed.
+
 ## Resources used
 
 ### 1. Pixabay
