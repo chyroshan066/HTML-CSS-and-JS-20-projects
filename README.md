@@ -121,6 +121,14 @@ On moving mouse cursor on the window, the currency stack increases or decreases 
 
 On scrolling down the window, the flower cards translates and adjusts itself at the center aligning with other cards whenever there is empty space at the bottom.
 
+### 16. Digital Clock
+
+#### Reference image
+
+![Project16](./assets/Project16.png)
+
+Simple Digital Clock which displays time in 24hr format.
+
 ## Resources used
 
 ### 1. Pixabay

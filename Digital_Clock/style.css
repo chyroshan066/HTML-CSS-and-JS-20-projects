@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D3D3D3;
+}
+
+.container .card{
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #632df8;
+    max-width: 400px;
+}
+
+.container .card h1{
+    text-align: center;
+    background-color: #632df8;
+    padding: 10px 0;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.container .card .clock{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container .card .clock .time-element{
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin: 0 10px;
+}
+
+.container .card .clock .colon-element{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 0 10px;
+}
