@@ -113,6 +113,14 @@ The square box rotates continuously changing its shape and size.
 
 On moving mouse cursor on the window, the currency stack increases or decreases depending on direction.
 
+### 15. Scrolling Images
+
+#### Reference image
+
+![Project15](./assets/Project15.png)
+
+On scrolling down the window, the flower cards translates and adjusts itself at the center aligning with other cards whenever there is empty space at the bottom.
+
 ## Resources used
 
 ### 1. Pixabay

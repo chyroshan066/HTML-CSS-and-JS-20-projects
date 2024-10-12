@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: lightblue;
+    color: aliceblue;
+}
+
+.card{
+    background: url("https://cdn.pixabay.com/photo/2023/10/27/17/04/dahlia-8345799_1280.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    width: 600px;
+    height: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all 2s ease;
+}
+
+.card h2{
+    margin: 1rem;
+}
+
+.card:nth-child(even){
+    transform: translateX(-200%) rotate(90deg) scale(0.1);
+}
+
+.card:nth-child(odd){
+    transform: translateX(-200%) rotate(90deg) scale(0.1);
+}
+
+.card.slidingIn{
+    transform: translateX(0%) rotate(0deg) scale(1);
+}
