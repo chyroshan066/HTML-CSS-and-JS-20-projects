@@ -129,6 +129,14 @@ On scrolling down the window, the flower cards translates and adjusts itself at 
 
 Simple Digital Clock which displays time in 24hr format.
 
+### 16. Vowel Counter
+
+#### Reference image
+
+![Project17](./assets/Project17.png)
+
+Displays the total number of vowels entered in the textarea.
+
 ## Resources used
 
 ### 1. Pixabay
