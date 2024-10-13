@@ -146,6 +146,22 @@ Displays the total number of vowels entered in the textarea.
 
 On clicking "Click Me" button, the card popover and on clicking "Close", it is removed.
 
+### 19. ASCII/UNICODE Char Detector
+
+#### Reference image
+
+![Project19](./assets/Project19.png)
+
+Detects whether the entered character is an ASCII character or UNICODE character.
+
+### 20. ToDo List
+
+#### Reference image
+
+![Project20](./assets/Project20.png)
+
+Allows creation or deletion of the tasks to be done.
+
 ## Resources used
 
 ### 1. Pixabay
